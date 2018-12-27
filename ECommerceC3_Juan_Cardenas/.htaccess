@@ -1,0 +1,12 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /ECommerceC3_Stefania_AfanadorOrtega/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /ECommerceC3_Stefania_AfanadorOrtega/index.php [L]
+</IfModule>
+
+# END WordPress
